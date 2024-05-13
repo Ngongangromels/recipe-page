@@ -21,7 +21,7 @@ function App() {
     }) ()
   }, [])
   
-  return <div className='App'>{loading ? <p classeName='loading'>Loading....</p> : <Recipe recipe={recipe!}/> } </div>
+  return <div className='App'>{loading ? <p className='loading'>Loading....</p> : <Recipe recipe={recipe!}/> } </div>
   
 
   
